@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image filter</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        img{
+            height: 600px;
+            width: 800px;
+            border-radius: 20px;
+        }
+        h1{
+            font-size: 50px;
+            text-decoration: underline;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        img:hover{
+            filter: grayscale(1);
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hover To Have A Grayscale Look</h1>
+    <img src="./Bill-Gates.jpg" alt="Bill-Gates">
+</body>
+</html>
